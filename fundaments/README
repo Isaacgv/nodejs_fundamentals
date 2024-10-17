@@ -1,0 +1,8 @@
+#Initialize
+npm init -y
+
+GET => search information backend
+POST => Create information
+PUT => update all the resourse
+PATCH => update one specific information
+DELETE
