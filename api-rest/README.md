@@ -23,3 +23,6 @@ npm install sqlite3
 npm run knex -- migrate:make create-documents
 npm run knex -- migrate:latest
 npm run knex -- migrate:rollback
+
+# Cookie
+npm i @fastify/cookie
