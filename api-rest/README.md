@@ -26,3 +26,11 @@ npm run knex -- migrate:rollback
 
 # Cookie
 npm i @fastify/cookie
+
+# Test
+npm i vitest -D
+npm i supertest -D
+npm i -D @types/supertest
+
+# Deploy
+npm i tsup -D
