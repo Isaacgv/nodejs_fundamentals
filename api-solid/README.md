@@ -10,4 +10,31 @@ npx tsc --init
 npm i fastify
 npm i dotenv
 npm i zod
-npm i eslint @rocketseat/eslint-config -D
+npm i eslint @rocketseat eslint-config -D
+
+# Database
+npm i prisma -D
+npx prisma init
+npx prisma generate
+
+npm i @prisma/client
+
+npx prisma studio
+
+## Update schema, execute in production
+npx prisma migrate deploy
+
+##  Create new migration file
+npx prisma migrate dev
+
+# Hash
+npm -i bcryptjs
+npm i -D @types/bcryptjs
+
+# Test
+npm i vitest vite-tsconfig-paths -D
+
+# Vitest UI
+npm i -D @vitest/ui
+
+npm i dayjs
