@@ -38,3 +38,14 @@ npm i vitest vite-tsconfig-paths -D
 npm i -D @vitest/ui
 
 npm i dayjs
+
+npm i @fastfy/jwt
+
+npm link 
+npm link vitest-enviroment-prisma
+
+npm i @fastify/cookie
+
+npm i bcryptjs
+
+npm install -D npm-run-all
